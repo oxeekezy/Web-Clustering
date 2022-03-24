@@ -12,7 +12,7 @@ import random
 def Clustering(count: int, cl1: int, cl2: int, x_label, y_label):
     colors = ["DarkTurquoise", "Plum", "Peru", "Crimson", "MediumSeaGreen", "MediumSlateBlue"]
 
-    dataset = pd.read_csv(sys.path[0] + '/s.csv')
+    dataset = pd.read_csv(sys.path[0] + '/graphicsapp/s.csv')
 
     X = dataset.iloc[:, [cl1, cl2]].values
 
